@@ -1,0 +1,31 @@
+{
+  "name": "podium-design-system",
+  "version": "1.0.0",
+  "description": "A design system for the Podium web application, including guidelines for spacing, elevation, colors, typography, and components.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/podium-design-system.git"
+  },
+  "keywords": [
+    "design",
+    "system",
+    "podium",
+    "web",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2"
+  }
+}
