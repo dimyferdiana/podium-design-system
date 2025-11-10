@@ -19,10 +19,15 @@ Cards are versatile containers that can hold various types of content. They can 
 - **Action Card**: Card layout designed for specific actions.
 
 ### Modals
-Modals are overlays that display content above the main application interface. They are used for critical actions or information.
+Modals are overlays that display content above the main application interface. They are used for critical actions, confirmations, forms, or information that requires focused user attention.
 
-- **Standard Modal**: Basic modal for general use.
-- **Confirmation Modal**: Modal for confirming user actions.
+- **Standard Modal**: General-purpose modal for forms and content display.
+- **Confirmation Modal**: Modal for confirming critical user actions (delete, save, etc.).
+- **Information Modal**: Modal for displaying read-only information.
+- **Form Modal**: Modal containing input fields and form controls.
+- **Full-Screen Modal**: Large modal for complex interfaces like tables or editors.
+
+[View full Modal documentation](./modal.md)
 
 ### Forms
 Forms are used for user input and data collection. They include various input types and validation states.
