@@ -1,0 +1,115 @@
+{
+  "typography": {
+    "fontFamilies": {
+      "poppins": "Poppins, sans-serif",
+      "urbanist": "Urbanist, sans-serif",
+      "inter": "Inter, sans-serif",
+      "sourceSansPro": "Source Sans Pro, sans-serif"
+    },
+    "fontWeights": {
+      "regular": 400,
+      "medium": 500,
+      "semiBold": 600,
+      "bold": 700
+    },
+    "headings": {
+      "pageTitle": {
+        "token": "instrument.heading.page-title",
+        "fontFamily": "Poppins, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "30px",
+        "lineHeight": "40px",
+        "letterSpacing": "-0.015em",
+        "usage": "H1 Page Title (e.g., 'Sales Dashboard')"
+      },
+      "cardTitle": {
+        "token": "instrument.heading.card-title",
+        "fontFamily": "Poppins, sans-serif",
+        "fontWeight": 500,
+        "fontSize": "20px",
+        "lineHeight": "28px",
+        "letterSpacing": "0",
+        "usage": "H2 Card/Widget Title"
+      },
+      "listTitle": {
+        "token": "instrument.heading.list-title",
+        "fontFamily": "Urbanist, sans-serif",
+        "fontWeight": 500,
+        "fontSize": "18px",
+        "lineHeight": "24px",
+        "letterSpacing": "0",
+        "usage": "H3 Table/List Title"
+      }
+    },
+    "body": {
+      "default": {
+        "token": "instrument.body.default",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "0",
+        "usage": "Body text, data tables"
+      },
+      "small": {
+        "token": "instrument.body.small",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "letterSpacing": "0",
+        "usage": "Body Small/Table Cell"
+      }
+    },
+    "special": {
+      "kpi": {
+        "token": "instrument.special.kpi",
+        "fontFamily": "Urbanist, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "48px",
+        "lineHeight": "56px",
+        "letterSpacing": "-0.01em",
+        "usage": "KPI/Big Number"
+      }
+    },
+    "ui": {
+      "tableHeader": {
+        "token": "instrument.ui.table-header",
+        "fontFamily": "Source Sans Pro, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "letterSpacing": "0.01em",
+        "textTransform": "uppercase",
+        "usage": "Table Header"
+      },
+      "inputLabel": {
+        "token": "instrument.ui.input-label",
+        "fontFamily": "Source Sans Pro, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "letterSpacing": "0",
+        "usage": "Input Label/Form Field"
+      },
+      "buttonText": {
+        "token": "instrument.ui.button-text",
+        "fontFamily": "Urbanist, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "letterSpacing": "0",
+        "usage": "Button"
+      },
+      "caption": {
+        "token": "instrument.ui.caption",
+        "fontFamily": "Source Sans Pro, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "letterSpacing": "0",
+        "usage": "Caption/Helper Text"
+      }
+    }
+  }
+}

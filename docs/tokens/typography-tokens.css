@@ -1,0 +1,254 @@
+/**
+ * Podium Design System - Typography Tokens
+ * Auto-generated CSS custom properties for typography
+ */
+
+:root {
+  /* Font Families */
+  --font-family-poppins: Poppins, sans-serif;
+  --font-family-urbanist: Urbanist, sans-serif;
+  --font-family-inter: Inter, sans-serif;
+  --font-family-source-sans-pro: Source Sans Pro, sans-serif;
+
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Headings */
+  
+  /* H1 - Page Title (instrument.heading.page-title) */
+  --heading-page-title-font-family: var(--font-family-poppins);
+  --heading-page-title-font-weight: var(--font-weight-semibold);
+  --heading-page-title-font-size: 30px;
+  --heading-page-title-line-height: 40px;
+  --heading-page-title-letter-spacing: -0.015em;
+
+  /* H2 - Card/Widget Title (instrument.heading.card-title) */
+  --heading-card-title-font-family: var(--font-family-poppins);
+  --heading-card-title-font-weight: var(--font-weight-medium);
+  --heading-card-title-font-size: 20px;
+  --heading-card-title-line-height: 28px;
+  --heading-card-title-letter-spacing: 0;
+
+  /* H3 - Table/List Title (instrument.heading.list-title) */
+  --heading-list-title-font-family: var(--font-family-urbanist);
+  --heading-list-title-font-weight: var(--font-weight-medium);
+  --heading-list-title-font-size: 18px;
+  --heading-list-title-line-height: 24px;
+  --heading-list-title-letter-spacing: 0;
+
+  /* Body Text */
+  
+  /* Body Default (instrument.body.default) */
+  --body-default-font-family: var(--font-family-inter);
+  --body-default-font-weight: var(--font-weight-regular);
+  --body-default-font-size: 16px;
+  --body-default-line-height: 24px;
+  --body-default-letter-spacing: 0;
+
+  /* Body Small (instrument.body.small) */
+  --body-small-font-family: var(--font-family-inter);
+  --body-small-font-weight: var(--font-weight-regular);
+  --body-small-font-size: 14px;
+  --body-small-line-height: 20px;
+  --body-small-letter-spacing: 0;
+
+  /* Special Styles */
+  
+  /* KPI/Big Number (instrument.special.kpi) */
+  --special-kpi-font-family: var(--font-family-urbanist);
+  --special-kpi-font-weight: var(--font-weight-regular);
+  --special-kpi-font-size: 48px;
+  --special-kpi-line-height: 56px;
+  --special-kpi-letter-spacing: -0.01em;
+
+  /* UI Elements */
+  
+  /* Table Header (instrument.ui.table-header) */
+  --ui-table-header-font-family: var(--font-family-source-sans-pro);
+  --ui-table-header-font-weight: var(--font-weight-semibold);
+  --ui-table-header-font-size: 14px;
+  --ui-table-header-line-height: 20px;
+  --ui-table-header-letter-spacing: 0.01em;
+  --ui-table-header-text-transform: uppercase;
+
+  /* Input Label (instrument.ui.input-label) */
+  --ui-input-label-font-family: var(--font-family-source-sans-pro);
+  --ui-input-label-font-weight: var(--font-weight-regular);
+  --ui-input-label-font-size: 14px;
+  --ui-input-label-line-height: 20px;
+  --ui-input-label-letter-spacing: 0;
+
+  /* Button Text (instrument.ui.button-text) */
+  --ui-button-text-font-family: var(--font-family-urbanist);
+  --ui-button-text-font-weight: var(--font-weight-semibold);
+  --ui-button-text-font-size: 14px;
+  --ui-button-text-line-height: 20px;
+  --ui-button-text-letter-spacing: 0;
+
+  /* Caption/Helper Text (instrument.ui.caption) */
+  --ui-caption-font-family: var(--font-family-source-sans-pro);
+  --ui-caption-font-weight: var(--font-weight-regular);
+  --ui-caption-font-size: 12px;
+  --ui-caption-line-height: 16px;
+  --ui-caption-letter-spacing: 0;
+}
+
+/* ============================================
+   Typography Utility Classes
+   ============================================ */
+
+/* Headings */
+.instrument-heading-page-title {
+  font-family: var(--heading-page-title-font-family);
+  font-weight: var(--heading-page-title-font-weight);
+  font-size: var(--heading-page-title-font-size);
+  line-height: var(--heading-page-title-line-height);
+  letter-spacing: var(--heading-page-title-letter-spacing);
+}
+
+.instrument-heading-card-title {
+  font-family: var(--heading-card-title-font-family);
+  font-weight: var(--heading-card-title-font-weight);
+  font-size: var(--heading-card-title-font-size);
+  line-height: var(--heading-card-title-line-height);
+  letter-spacing: var(--heading-card-title-letter-spacing);
+}
+
+.instrument-heading-list-title {
+  font-family: var(--heading-list-title-font-family);
+  font-weight: var(--heading-list-title-font-weight);
+  font-size: var(--heading-list-title-font-size);
+  line-height: var(--heading-list-title-line-height);
+  letter-spacing: var(--heading-list-title-letter-spacing);
+}
+
+/* Body Text */
+.instrument-body-default {
+  font-family: var(--body-default-font-family);
+  font-weight: var(--body-default-font-weight);
+  font-size: var(--body-default-font-size);
+  line-height: var(--body-default-line-height);
+  letter-spacing: var(--body-default-letter-spacing);
+}
+
+.instrument-body-small {
+  font-family: var(--body-small-font-family);
+  font-weight: var(--body-small-font-weight);
+  font-size: var(--body-small-font-size);
+  line-height: var(--body-small-line-height);
+  letter-spacing: var(--body-small-letter-spacing);
+}
+
+/* Special Styles */
+.instrument-special-kpi {
+  font-family: var(--special-kpi-font-family);
+  font-weight: var(--special-kpi-font-weight);
+  font-size: var(--special-kpi-font-size);
+  line-height: var(--special-kpi-line-height);
+  letter-spacing: var(--special-kpi-letter-spacing);
+}
+
+/* UI Elements */
+.instrument-ui-table-header {
+  font-family: var(--ui-table-header-font-family);
+  font-weight: var(--ui-table-header-font-weight);
+  font-size: var(--ui-table-header-font-size);
+  line-height: var(--ui-table-header-line-height);
+  letter-spacing: var(--ui-table-header-letter-spacing);
+  text-transform: var(--ui-table-header-text-transform);
+}
+
+.instrument-ui-input-label {
+  font-family: var(--ui-input-label-font-family);
+  font-weight: var(--ui-input-label-font-weight);
+  font-size: var(--ui-input-label-font-size);
+  line-height: var(--ui-input-label-line-height);
+  letter-spacing: var(--ui-input-label-letter-spacing);
+}
+
+.instrument-ui-button-text {
+  font-family: var(--ui-button-text-font-family);
+  font-weight: var(--ui-button-text-font-weight);
+  font-size: var(--ui-button-text-font-size);
+  line-height: var(--ui-button-text-line-height);
+  letter-spacing: var(--ui-button-text-letter-spacing);
+}
+
+.instrument-ui-caption {
+  font-family: var(--ui-caption-font-family);
+  font-weight: var(--ui-caption-font-weight);
+  font-size: var(--ui-caption-font-size);
+  line-height: var(--ui-caption-line-height);
+  letter-spacing: var(--ui-caption-letter-spacing);
+}
+
+/* ============================================
+   Semantic HTML Element Defaults (Optional)
+   ============================================ */
+
+h1 {
+  font-family: var(--heading-page-title-font-family);
+  font-weight: var(--heading-page-title-font-weight);
+  font-size: var(--heading-page-title-font-size);
+  line-height: var(--heading-page-title-line-height);
+  letter-spacing: var(--heading-page-title-letter-spacing);
+}
+
+h2 {
+  font-family: var(--heading-card-title-font-family);
+  font-weight: var(--heading-card-title-font-weight);
+  font-size: var(--heading-card-title-font-size);
+  line-height: var(--heading-card-title-line-height);
+  letter-spacing: var(--heading-card-title-letter-spacing);
+}
+
+h3 {
+  font-family: var(--heading-list-title-font-family);
+  font-weight: var(--heading-list-title-font-weight);
+  font-size: var(--heading-list-title-font-size);
+  line-height: var(--heading-list-title-line-height);
+  letter-spacing: var(--heading-list-title-letter-spacing);
+}
+
+body, p {
+  font-family: var(--body-default-font-family);
+  font-weight: var(--body-default-font-weight);
+  font-size: var(--body-default-font-size);
+  line-height: var(--body-default-line-height);
+  letter-spacing: var(--body-default-letter-spacing);
+}
+
+small {
+  font-family: var(--body-small-font-family);
+  font-weight: var(--body-small-font-weight);
+  font-size: var(--body-small-font-size);
+  line-height: var(--body-small-line-height);
+  letter-spacing: var(--body-small-letter-spacing);
+}
+
+button {
+  font-family: var(--ui-button-text-font-family);
+  font-weight: var(--ui-button-text-font-weight);
+  font-size: var(--ui-button-text-font-size);
+  line-height: var(--ui-button-text-line-height);
+  letter-spacing: var(--ui-button-text-letter-spacing);
+}
+
+label {
+  font-family: var(--ui-input-label-font-family);
+  font-weight: var(--ui-input-label-font-weight);
+  font-size: var(--ui-input-label-font-size);
+  line-height: var(--ui-input-label-line-height);
+  letter-spacing: var(--ui-input-label-letter-spacing);
+}
+
+caption {
+  font-family: var(--ui-caption-font-family);
+  font-weight: var(--ui-caption-font-weight);
+  font-size: var(--ui-caption-font-size);
+  line-height: var(--ui-caption-line-height);
+  letter-spacing: var(--ui-caption-letter-spacing);
+}
